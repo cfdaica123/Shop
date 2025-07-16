@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-ShopApplication<Shop>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.diorama.shop.ShopApplication",
+      "projectName": "Shop",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
