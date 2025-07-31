@@ -1,1 +1,19 @@
+# Java - Spring Boot
+/shop/target
+/shop/.idea
+/shop/*.iml
+
+# Node.js - Next.js
+/frontend-shop/node_modules
+/frontend-shop/.next
+/frontend-shop/.env
+/frontend-shop/.env.local
+
+# Common
 .env
+*.log
+*.pem
+.DS_Store
+.vscode
+
+.fake
