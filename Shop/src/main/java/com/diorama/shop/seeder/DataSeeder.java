@@ -2,12 +2,14 @@ package com.diorama.shop.seeder;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
 import com.diorama.shop.model.Role;
 import com.diorama.shop.model.Enums.RoleType;
 import com.diorama.shop.repository.RoleRepository;
 
+@Order(1)
 @Component
 public class DataSeeder implements CommandLineRunner {
 
