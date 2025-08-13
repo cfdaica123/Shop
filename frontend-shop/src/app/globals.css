@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwright+HU:wght@100;200;300;400&family=Playwright+AU+QLD:wght@100;200;300;400&family=Edu+NSW+ACT+Cursive:wght@400;500;600;700&display=swap");
+
+:root {
+    --color-coffee-brown: #4b2e0f;
+    --color-cream: #f5f0e6;
+    --color-caramel: #c68e17;
+    --color-chocolate: #3b2f2f;
+    --color-soft-pink: #e6c9c9;
+    --color-green-leaf: #6b8e23;
+    --color-bright-caramel: #e3a135;
+    --color-soft-orange: #ff9f43;
+    --color-light-pink: #ffd6d6;
+    --color-warm-yellow: #ffe066;
+    --color-fresh-mint: #9ae3d4;
+}
+
+body {
+    font-family: "Playwright HU", "Playwright AU QLD", "Edu NSW ACT Cursive", sans-serif;
+    background-color: var(--color-cream);
+    color: var(--color-coffee-brown);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+}
